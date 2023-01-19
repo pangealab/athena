@@ -8,9 +8,9 @@ LAYOUT_TOP_DOWN()
 LAYOUT_WITH_LEGEND()
 
 
-Person_Ext(anonymous_user, "Anonymous User 1")
-Person(aggregated_user, "Aggregated User 2")
-Person(administration_user, "Administration User 3")
+Person_Ext(anonymous_user, "Anonymous User A")
+Person(aggregated_user, "Aggregated User B")
+Person(administration_user, "Administration User C")
 
 System_Boundary(c1, "techtribes.js"){
     
