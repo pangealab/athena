@@ -7,7 +7,6 @@ LAYOUT_TOP_DOWN()
 'LAYOUT_AS_SKETCH()
 LAYOUT_WITH_LEGEND()
 
-
 Person_Ext(anonymous_user, "Anonymous User")
 Person(aggregated_user, "Aggregated User")
 Person(administration_user, "Administration User")
@@ -28,7 +27,6 @@ System_Boundary(c1, "techtribes.js"){
 System_Ext(twitter, "Twitter")
 System_Ext(github, "GitHub")
 System_Ext(blogs, "Blogs")
-
 
 Rel(anonymous_user, web_app, "Uses", "HTTPS")
 Rel(aggregated_user, web_app, "Uses", "HTTPS")
