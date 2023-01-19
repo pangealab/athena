@@ -23,12 +23,12 @@ System_Boundary(c1, "techtribes.js"){
     ContainerDb(nosql, "NoSQL Data Store", "MongoDB 2.2.x", "Stores from RSS/Atom feeds (blog posts) and tweets")
 
     Container(updater, "Updater", "Java 7 Console App", "Updates profiles, tweets, GitHub repos and content on a scheduled basis")
+
 }
 
 System_Ext(twitter, "Twitter")
 System_Ext(github, "GitHub")
 System_Ext(blogs, "Blogs")
-
 
 Rel(anonymous_user, web_app, "Uses", "HTTPS")
 Rel(aggregated_user, web_app, "Uses", "HTTPS")
