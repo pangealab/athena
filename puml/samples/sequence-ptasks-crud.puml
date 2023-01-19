@@ -1,6 +1,6 @@
 @startuml
 
-skin BlueModern
+' skin BlueModern
 
 title Publish Jobs CRUD (Create Read <s>Update</s> Delete)
 

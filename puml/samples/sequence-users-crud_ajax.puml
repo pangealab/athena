@@ -1,6 +1,6 @@
 @startuml
 
-skin BlueModern
+' skin BlueModern
 
 title Users CRUD (Create Read Update Delete)
 
