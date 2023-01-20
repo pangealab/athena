@@ -14,12 +14,14 @@ Person_Ext(3rd_party_user, "3rd Party", "3rd Party")
 Person(platform_user, "Platform User", "Platform User")
 Person(anonymous_user, "Anonymous User", "Anonymous User")
 
-System(now_learning_system, "Now Learning System", "Now Learning System")
-System(now_support_system, "Now Support System", "Now Support System")
-System(now_impact_system, "Now Impact System", "Now Impact System")
-System(now_learning_system, "Now Learning System", "Now Learning System")
-System(now_developer_system, "Now Developer System", "Now Developer System")
-System(now_dotcom_system, "Now Dotcom System", "Now Dotcom System")
-System(now_docs_system, "Now Docs System", "Now Docs System")
+Enterprise_Boundary(servicenow_enteprise, "ServiceNow") {
+  System(now_learning_system, "Now Learning System", "Now Learning System")
+  System(now_support_system, "Now Support System", "Now Support System")
+  System(now_impact_system, "Now Impact System", "Now Impact System")
+  System(now_learninghub_system, "Now Learning Hub System", "Now Learning Hub System")
+  System(now_developer_system, "Now Developer System", "Now Developer System")
+  System(now_dotcom_system, "Now Dotcom System", "Now Dotcom System")
+  System(now_docs_system, "Now Docs System", "Now Docs System")
+}
 
 @enduml
