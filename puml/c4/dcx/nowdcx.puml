@@ -24,4 +24,8 @@ Enterprise_Boundary(servicenow_enteprise, "ServiceNow") {
   System(now_docs_system, "Now Docs System", "Now Docs System")
 }
 
+Rel_D(anonymous_user, now_dotcom_system, "Uses")
+Rel_D(anonymous_user, now_docs_system, "Uses")
+Rel_D(anonymous_user, now_developer_system, "Uses")
+
 @enduml
