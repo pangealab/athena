@@ -11,7 +11,7 @@ skinparam component {
     ArrowColor         #222266
 }
 
-title OSCIED & Store Charms Relations
+title OSCIED & Store Charms Relations by Tony A
 skinparam componentStyle uml2
 
 interface "(ui)" as ui

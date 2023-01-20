@@ -21,6 +21,7 @@ Enterprise_Boundary(servicenow_enteprise, "ServiceNow") {
   System(now_developer_system, "Now Developer System", "Now Developer System")
   System(now_dotcom_system, "Now Dotcom System", "Now Dotcom System")
   System(now_docs_system, "Now Docs System", "Now Docs System")
+  System(now_community_system, "Now Docs System", "Now Docs System")
 }
 
 Rel_D(anonymous_user, now_dotcom_system, "Uses")
