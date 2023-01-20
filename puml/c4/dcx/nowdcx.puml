@@ -1,0 +1,18 @@
+@startuml "enterprise"
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Context.puml
+' uncomment the following line and comment the first to use locally
+' !include C4_Context.puml
+
+LAYOUT_TOP_DOWN()
+'LAYOUT_AS_SKETCH()
+LAYOUT_WITH_LEGEND()
+
+title System Context diagram for NOW DCX
+
+Person_Ext(external_user, "External User", "External User")
+Person_Ext(3rd_party_user, "3rd Party", "3rd Party")
+Person(platform_user, "Platform User", "Platform User")
+Person(anonymous_user, "Anonymous User", "Anonymous User")
+
+
+@enduml
